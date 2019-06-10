@@ -13,7 +13,7 @@ let myFunction = function () => console.log("Function was invoked!")
 // };
 // anotherFunction("Example");
 
-let anotherFunction = function (param) => return param
+let anotherFunction = (param) => param
 
 anotherFunction("Example")
 
@@ -22,7 +22,7 @@ anotherFunction("Example")
 // };
 // add(1,2);
 
-let add = function (param1, param2) => return param1 + param2
+let add = (param1, param2) => param1 + param2
 
 add(1, 2)
 
@@ -31,7 +31,7 @@ add(1, 2)
 // };
 // subtract(1,2);
 
-let subtract = function (param1, param2) => return param1 - param2
+let subtract = (param1, param2) => param1 - param2
 
 subtract (1, 2)
 
